@@ -1,7 +1,10 @@
-﻿namespace eShopsolution.Data.Entities
+﻿using System.Collections.Generic;
+
+namespace eShopsolution.Data.Entities
 {
     public class OrderDetail
     {
+
         public int OrderId { set; get; }
         public int ProductId { set; get; }
         public int Quantity { set; get; }
